@@ -54,37 +54,37 @@ a {
 
 	/*.logo:hover { 
 		transform: scale(.9);
-	}*/
+		}*/
 
-	.menu { 
-		float: right;
-		display: flex;
-		align-items: center;
-		height: 100%; 
+		.menu { 
+			float: right;
+			display: flex;
+			align-items: center;
+			height: 100%; 
 
-	}
-	.menu > li { 
-		position: relative; }
+		}
+		.menu > li { 
+			position: relative; }
 
-		.sub-menu { 
-			position: absolute;
-			display: none;
-			top: 20px; 
-			width: 150px;         
-            right: 0;
-            z-index: 10;
-            background: #eee;
-            margin: 0;
-            padding: 10px; 
+			.sub-menu { 
+				position: absolute;
+				display: none;
+				top: 20px; 
+				width: 150px;         
+				right: 0;
+				z-index: 10;
+				background: #eee;
+				margin: 0;
+				padding: 10px; 
 
 
-}
+			}
 
-.sub-menu li {
-	font-family: var(--font-roboto);
-	font-size: 18px;
-	line-height: 1.5;
-	text-align: justify; } 
+			.sub-menu li {
+				font-family: var(--font-roboto);
+				font-size: 18px;
+				line-height: 1.5;
+				text-align: justify; } 
 /*.sub-menu a { 
 border: 1px solid #e5e5e5;
 }*/
@@ -173,3 +173,90 @@ padding-left: 30px; } */
 		.dots li a:hover { 
 			color:var(--hover);
 		}
+
+		.product { 
+			height: 1200px ;
+			background: #fff;
+			padding: 115px 70px 70px;
+
+
+		}
+		.product-text {
+			font-family: var(--font-raleway); 
+			text-align: center;
+		}
+
+		.product-title { 
+			font-size: 48px;
+			font-weight: 900;
+		}
+
+		.product-title { 
+		}
+
+		.star { 
+			font-size: 18px;
+			margin: 20px 0;
+		}
+
+		.product-description { 
+			font-size: 18px;
+			margin-bottom: 80px;
+		}
+		.product-photos {
+			border-radius: 5px;
+
+		}
+		.photo { 
+			position: relative;
+			overflow: hidden;
+		}
+
+		.line { 
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+
+		}
+
+		.line.one { 
+			margin-bottom: 35px;
+		}
+		.line.two {}
+
+
+		.photo-text{
+			background: #e10011;
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 100%;
+			/*display: flex;
+			justify-content: center;
+			align-items: flex-end;
+			flex-direction: column;*/
+			color:#fff;
+			font-family: var(--font-roboto);
+
+		}
+
+		.photo:hover .photo-text{
+			top:0;
+
+		}
+
+		.photo-text .photo-title{
+			font-size: 30px;
+			font-weight: 700;
+			left: 40px;
+			position: relative;
+			top: 260px;
+		}
+
+		.photo-text .border{
+  border-bottom: 5px solid;
+  padding-bottom: 10px;
+}
+
+
